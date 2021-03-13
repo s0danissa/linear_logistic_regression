@@ -1,7 +1,4 @@
-## ROBT 407 | Homework 2 | Task 0.4
-#### Danissa Sandykbayeva
-
-
+## Pocket Algorithm
 ```python
 import numpy as np
 from matplotlib import pyplot as plt
@@ -516,4 +513,4 @@ for i in range(1, 20):
 ![png](/README_images/output_13_75.png)
 
 
-#### As it can be seen from the plots and data above, $E_{in}[w(t)]$ reaches it's average value quite fast and later just oscilates around it with each new iteration. And $E_{in}[\hat{w}(t)]$ also reaches it's minimum really fast. Besides that it can also be seen that Pocket Algorithm does a pretty goot job at approximating the target function and separating non-lineraly separable data with as less outliers as possible.<br><br>Also since there is only 10% of all points with the flipped labels (meaning that created noise is relatively insignificant) hypotheses of all 20 repotitions look very similar to each other.
+#### As it can be seen from the plots and data above, E in[w(t)] reaches it's average value quite fast and later just oscilates around it with each new iteration. And E in[{w}(t)'] also reaches it's minimum really fast. Besides that it can also be seen that Pocket Algorithm does a pretty goot job at approximating the target function and separating non-lineraly separable data with as less outliers as possible.<br><br>Also since there is only 10% of all points with the flipped labels (meaning that created noise is relatively insignificant) hypotheses of all 20 repotitions look very similar to each other.
