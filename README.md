@@ -34,7 +34,7 @@ plt.show()
 ```
 
 
-![png](output_3_0.png)
+![png](/README_images/output_3_0.png)
 
 
 #### Turning linearly separable dataset into non-lineraly separable one, by flipping random N/10 of the labels:
@@ -57,7 +57,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](/README_images/output_5_0.png)
 
 
 #### Task 2 <br>Next, implement the pocket algorithm and run it on the data set for 1000 updates. Record $E_{in}(w(t))$, $E_{in}(\hat{w}(t))$, $E_{out}(w(t))$, and $E_{out}(\hat{w}(t))$ as functions of t (where $E_{out}$ is estimated by the test set). Repeat the experiment for 20 times. Plot the average $E_{in}(w(t))$ and $E_{in}(\hat{w}(t))$ as functions of t and briefly state your findings.<br><br>  Implementing Pocket Algorithm:
@@ -120,7 +120,7 @@ weightss=pocket_pla(x,label,1000)
 ```
 
 
-![png](output_9_0.png)
+![png](/README_images/output_9_0.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -147,7 +147,7 @@ print('Final hypothesis: g(X) = %.5f*X' % slope)
 ```
 
 
-![png](output_11_0.png)
+![png](/README_images/output_11_0.png)
 
 
     Final hypothesis: g(X) = -0.26766*X
@@ -179,7 +179,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_1.png)
+![png](/README_images/output_13_1.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -189,7 +189,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_3.png)
+![png](/README_images/output_13_3.png)
 
 
 
@@ -197,7 +197,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_5.png)
+![png](/README_images/output_13_5.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -207,7 +207,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_7.png)
+![png](/README_images/output_13_7.png)
 
 
 
@@ -215,7 +215,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_9.png)
+![png](/README_images/output_13_9.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -225,7 +225,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_11.png)
+![png](/README_images/output_13_11.png)
 
 
 
@@ -233,7 +233,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_13.png)
+![png](/README_images/output_13_13.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -243,7 +243,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_15.png)
+![png](/README_images/output_13_15.png)
 
 
 
@@ -251,7 +251,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_17.png)
+![png](/README_images/output_13_17.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -261,7 +261,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_19.png)
+![png](/README_images/output_13_19.png)
 
 
 
@@ -269,7 +269,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_21.png)
+![png](/README_images/output_13_21.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -279,7 +279,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_23.png)
+![png](/README_images/output_13_23.png)
 
 
 
@@ -287,7 +287,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_25.png)
+![png](/README_images/output_13_25.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -297,7 +297,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_27.png)
+![png](/README_images/output_13_27.png)
 
 
 
@@ -305,7 +305,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_29.png)
+![png](/README_images/output_13_29.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -315,7 +315,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_31.png)
+![png](/README_images/output_13_31.png)
 
 
 
@@ -323,7 +323,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_33.png)
+![png](/README_images/output_13_33.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -333,7 +333,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_35.png)
+![png](/README_images/output_13_35.png)
 
 
 
@@ -341,7 +341,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_37.png)
+![png](/README_images/output_13_37.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -351,7 +351,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_39.png)
+![png](/README_images/output_13_39.png)
 
 
 
@@ -359,7 +359,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_41.png)
+![png](/README_images/output_13_41.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -369,7 +369,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_43.png)
+![png](/README_images/output_13_43.png)
 
 
 
@@ -377,7 +377,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_45.png)
+![png](/README_images/output_13_45.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -387,7 +387,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_47.png)
+![png](/README_images/output_13_47.png)
 
 
 
@@ -395,7 +395,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_49.png)
+![png](/README_images/output_13_49.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -405,7 +405,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_51.png)
+![png](/README_images/output_13_51.png)
 
 
 
@@ -413,7 +413,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_53.png)
+![png](/README_images/output_13_53.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -423,7 +423,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_55.png)
+![png](/README_images/output_13_55.png)
 
 
 
@@ -431,7 +431,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_57.png)
+![png](/README_images/output_13_57.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -441,7 +441,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_59.png)
+![png](/README_images/output_13_59.png)
 
 
 
@@ -449,7 +449,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_61.png)
+![png](/README_images/output_13_61.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -459,7 +459,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_63.png)
+![png](/README_images/output_13_63.png)
 
 
 
@@ -467,7 +467,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_65.png)
+![png](/README_images/output_13_65.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -477,7 +477,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_67.png)
+![png](/README_images/output_13_67.png)
 
 
 
@@ -485,7 +485,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_69.png)
+![png](/README_images/output_13_69.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -495,7 +495,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_71.png)
+![png](/README_images/output_13_71.png)
 
 
 
@@ -503,7 +503,7 @@ for i in range(1, 20):
 
 
 
-![png](output_13_73.png)
+![png](/README_images/output_13_73.png)
 
 
     Error of the final weights E_in(w(t)): 0.560
@@ -513,7 +513,7 @@ for i in range(1, 20):
     
 
 
-![png](output_13_75.png)
+![png](/README_images/output_13_75.png)
 
 
 #### As it can be seen from the plots and data above, $E_{in}[w(t)]$ reaches it's average value quite fast and later just oscilates around it with each new iteration. And $E_{in}[\hat{w}(t)]$ also reaches it's minimum really fast. Besides that it can also be seen that Pocket Algorithm does a pretty goot job at approximating the target function and separating non-lineraly separable data with as less outliers as possible.<br><br>Also since there is only 10% of all points with the flipped labels (meaning that created noise is relatively insignificant) hypotheses of all 20 repotitions look very similar to each other.
